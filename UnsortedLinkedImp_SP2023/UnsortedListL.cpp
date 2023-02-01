@@ -17,6 +17,14 @@ void UnsortedListL::MakeEmpty()
 
 bool UnsortedListL::IsFull()
 {
+	try
+	{
+		Node* temp = new Node;
+	}
+	catch (bad_alloc)
+	{
+		return true;
+	}
 	return false;
 }
 

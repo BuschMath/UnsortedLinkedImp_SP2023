@@ -19,7 +19,7 @@ public:
 	bool IsFull();
 	int GetLength();
 	ItemType GetItem(ItemType item, bool& found);
-	bool PutItem(ItemType item);
+	bool PutItem(ItemType item);	// Done
 	bool DeleteItem(ItemType item);
 	void ResetList();
 	ItemType GetNextItem();
